@@ -6,6 +6,10 @@
 *.war
 *.ear
 
+# Eclipse specific
+*.classpath
+*.project
+
 ## generic files to ignore
 *~
 *.lock
