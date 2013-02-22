@@ -33,7 +33,7 @@ public class guiMain extends Application {
 		
 		//Raster festlegen
 		GridPane grid = new GridPane();
-		grid.setAlignment(Pos.CENTER); //Inhalt wird zentriert dargestellt
+		grid.setAlignment(Pos.CENTER); //Inhalt wird zentriert
 		grid.setHgap(10);
 		grid.setVgap(10);
 		grid.setPadding(new Insets(25, 25, 25, 25));
