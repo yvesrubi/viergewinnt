@@ -1,8 +1,8 @@
 /*-
- * Datei: FxLicht20.java
- * Thema: GUI-Programmierung; JavaFX; Event Handling; Demo FxLicht20
- * Autor: Matthias Lauterbach
- * Datum: 7.02.2013
+ * Datei: viergwinnt.java
+ * Thema: 4 gewinnt
+ * Autor: Martin Eberle
+ * Datum: 22.02.2013
  */ 
 
 import javafx.application.Application;
@@ -29,7 +29,7 @@ public class viergewinnt extends Application
 		
 		Font font = Font.font("Tahoma", FontWeight.NORMAL, 40);
 		
-		Label lbAppName = new Label("FxLicht10");
+		Label lbAppName = new Label("4 gewinnt");
 		lbAppName.setFont(font);
 		lbAppName.relocate(110, 10);
 		root.getChildren().add(lbAppName);
@@ -63,7 +63,7 @@ public class viergewinnt extends Application
 		btExit.setFocusTraversable(false);		
 		root.getChildren().add(btExit);
 		
-		//btExit.setOnAction(new FxLicht20EventHandler()); 
+		//btExit.setOnAction(new viergewinntEventHandler()); 
 		
 		btSwitchOn.setOnAction(new EventHandler<ActionEvent>() 
 		{	@Override
