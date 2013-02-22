@@ -1,0 +1,10 @@
+.h1{
+    -fx-font-size: 36pt;
+    -fx-font-family: "Courier New";
+    -fx-font-weight: bold;
+    -fx-text-fill:rgb(0,0,255);
+}
+
+.root {
+	-fx-background-color: mediumspringgreen ;
+}
