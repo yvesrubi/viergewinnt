@@ -9,6 +9,7 @@
 # Eclipse specific
 *.classpath
 *.project
+*.settings
 
 ## generic files to ignore
 *~
