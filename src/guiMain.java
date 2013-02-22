@@ -42,11 +42,14 @@ public class guiMain extends Application {
 		
 		//Headline
 		Text headline = new Text("viergewinnt // scream");
-		headline.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20));
+		headline.getStyleClass().add("h1"); //CSS-Klasse hinzufügen
         grid.add(headline, 0, 0, 2, 1);
 		
 		//Layout in Scene implementieren
 		Scene scene = new Scene(grid);
+		
+		//Stylesheet einbinden
+		scene.getStylesheets().add("src/style.css");
 		
 		 
 		
