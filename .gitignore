@@ -1,5 +1,6 @@
 # Java specific – ignore generated class files
 *.class
+bin/
 
 # Package Files
 *.jar
