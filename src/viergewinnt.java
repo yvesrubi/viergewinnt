@@ -27,7 +27,7 @@ public class viergewinnt extends Application
 	public void start(Stage stage) throws Exception
 	{	Pane root = new  Pane();
 		
-		Font font = Font.font("Tahoma", FontWeight.NORMAL, 40);
+		Font font = Font.font("Futura", FontWeight.NORMAL, 40);
 		
 		Label lbAppName = new Label("4 gewinnt");
 		lbAppName.setFont(font);
